@@ -18,5 +18,20 @@ img{
     vertical-align: middle;
 }
 :root{
-    
+    --green: #65B741;
+    --black: #222;
+    --lowerParagraphFont: clamp(12px, 1vw, 16px);
+    --paragraphFont: clamp(14px, 1vw, 16px);
+    --paraFont: clamp(16px, 1vw, 18px);
+    --paraheadingFont: clamp(18px, 1vw, 20px);
+    --subheadingFont: clamp(32px, 1vw, 20px);
+    --headingFont: clamp(50px, 1vw, 48px);
+    --normal: 400;
+    --medium: 500;
+    --semibold:600;
+    --bold:700;
+    --container: clamp(1240px, 1vw, 2000px);
+    --primaryFamily:  "Libre Baskerville", serif;
+    --secondaryFamily:  "Poppins", sans-serif;
+
 }
