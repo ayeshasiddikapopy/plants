@@ -1,0 +1,50 @@
+@media only screen and (max-width: 850px) {
+   #navigation , #hero , #hero_item, #delivery, #rating, #testimonial, #shop,
+   #newsletter, #community, #support, footer{
+    padding: 0 0.625rem;
+   }
+    .nav_inner_item{
+      display: none;
+    }
+    .bar {
+        display: inline-block;
+    }
+    .nav_responsive {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    .nav_logo img {
+        padding: 0;
+    }
+  
+    .nav_inner_item-responsive{
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        background: #fff;
+        width: 50%;
+        height: 90vh;
+        background: var(--secondary);
+    }
+    .nav_Item{
+        margin: 0 auto;
+    }
+    .nav_list {
+        position: relative;
+        padding: 2rem 0;
+    }
+    .nav_item_contents{
+        display: block;
+        text-align: center;
+        padding-bottom:1rem ;
+    }
+    .nav_icons {
+        width: 30%;
+        margin: 0 auto;
+        text-align: center;
+        grid-gap: 2rem;
+        display: grid;
+    }
+  }
