@@ -90,6 +90,7 @@
     /*------ shop----- */
     #shop_Category {
         padding: 2rem 0.625rem;
+        overflow: hidden;
     }
     .shop_item {
         width: 40%;
@@ -110,6 +111,10 @@
 }
 
 @media (min-width: 200px) and (max-width: 600px){
+
+    #navigation {
+        overflow: hidden;
+    }
     .hero_itemButtons_inner{
         width: 50%;
     }
@@ -123,12 +128,14 @@
     /*------ shop----- */
     #shop_Category {
         padding: 2rem 0.625rem;
+        overflow: hidden !important;
     }
     .shop_content  {
         justify-content: center;
     }
     .shop_item {
         width: 80%;
+        padding: 20px 0;
     }
     .shop_text_inner{
         font-size: var(--paraheadingFont);

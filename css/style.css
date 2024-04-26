@@ -59,6 +59,7 @@ img{
     position: fixed;
     width: 100%;
     z-index: 9999999;
+    padding: 10px;
 }
 .nav_contents{
     display: flex;
@@ -388,6 +389,7 @@ img{
     background: var(--green);
     height: 40px;
     width: 40px;
+    cursor: pointer;
 }
 .top i {
     color: #fff;

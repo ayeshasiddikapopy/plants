@@ -64,3 +64,45 @@
     nav_inner_item.classList.toggle('nav_inner_item-responsive')
   })
 
+
+  //shop categoty animation
+  
+
+
+  var tl = gsap.timeline({
+    scrollTrigger:{
+        trigger:'#shop_Category',
+        start: '0% 50%',
+        end: '50% 70%',
+        scrub:2,
+        // markers:true,
+        duration:2,
+        
+    }
+})
+
+tl.from('.shop_content',{
+    y:200,
+    duration:1
+})
+tl.from('.shop_item-animation1',{
+  y:250,
+  duration:0.5
+})
+tl.from('.shop_item-animation3',{
+  y:100,
+  duration:0.4
+})
+tl.from('.shop_item-animation2',{
+  y:200,
+  duration:1
+})
+// responsive--
+if (window.innerWidth <= 200 ){
+ 
+  tl.from('.shop_item-animation2',{
+    y:10,
+    duration:1
+  })
+
+}
