@@ -1,5 +1,5 @@
 @media only screen and (max-width: 850px) {
-   #navigation , #hero , #hero_item, #delivery, #rating, #testimonial, #shop,
+   #navigation ,#hero ,#hero_item,#delivery, #rating, #testimonial, #shop,
    #newsletter, #community, #support, footer{
     padding: 0 0.625rem;
    }
@@ -47,4 +47,40 @@
         grid-gap: 2rem;
         display: grid;
     }
-  }
+
+    /* -----------hero---------- */
+    #hero {
+        padding: 100px 10px;
+         
+      }
+    .hero_content{
+        width: 100%;
+        text-align: center;
+    }
+    .hero_Item , .hero_img {
+         width: 100%;
+    }
+    .hero_item_subPara {
+        margin: 0 auto;
+    }
+    .hero_itemButtons {
+        justify-content: center;
+    }
+    .hero_content {
+        display: block;
+    }
+
+}
+
+@media (min-width: 200px) and (max-width: 600px){
+    .hero_itemButtons_inner{
+        width: 50%;
+    }
+    .hero_img {
+        width: 100%;
+    }
+    .hero_content {
+        display: block;
+        padding: 0 10px;
+    }
+} 

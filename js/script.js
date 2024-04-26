@@ -14,7 +14,7 @@
     }
     
     // top to bottom---->>
-    if (scrolling > 600){
+    if (scrolling > 300){
         tops.style.display = 'block' 
         tops.style.transition = '1s'
     } else {
@@ -59,7 +59,7 @@
 
   // menu bar clicking
   bar.addEventListener('click',()=> {
-    console.log('dfdfd')
+    
     nav_inner_item.classList.toggle('nav_inner_item')
     nav_inner_item.classList.toggle('nav_inner_item-responsive')
   })

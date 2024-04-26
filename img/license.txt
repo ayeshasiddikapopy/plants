@@ -1,0 +1,11 @@
+Model Information:
+* title:	Monstera Deliciosa
+* source:	https://sketchfab.com/3d-models/monstera-deliciosa-385043a23ab84d83b85697c59ffef2b2
+* author:	Josh Smith (https://sketchfab.com/Yoshiboy721)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Monstera Deliciosa" (https://sketchfab.com/3d-models/monstera-deliciosa-385043a23ab84d83b85697c59ffef2b2) by Josh Smith (https://sketchfab.com/Yoshiboy721) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

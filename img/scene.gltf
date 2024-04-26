@@ -1,0 +1,429 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 8423,
+      "max": [
+        40.31481170654297,
+        88.9318618774414,
+        44.137367248535156
+      ],
+      "min": [
+        -46.58595275878906,
+        25.703914642333984,
+        -40.75816345214844
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 101076,
+      "componentType": 5126,
+      "count": 8423,
+      "max": [
+        0.9996421933174133,
+        0.9995757937431335,
+        0.9999125003814697
+      ],
+      "min": [
+        -0.9985224008560181,
+        -0.9991222620010376,
+        -0.9999966025352478
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 8423,
+      "max": [
+        0.9999892711639404,
+        0.9994007349014282,
+        0.9994668364524841,
+        1.0
+      ],
+      "min": [
+        -0.9999914169311523,
+        -0.9926413893699646,
+        -0.9993510842323303,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 8423,
+      "max": [
+        0.9371421337127686,
+        0.9815457463264465
+      ],
+      "min": [
+        0.06285792589187622,
+        0.018454253673553467
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 67384,
+      "componentType": 5126,
+      "count": 8423,
+      "max": [
+        0.9371421337127686,
+        0.9815457463264465
+      ],
+      "min": [
+        0.06285792589187622,
+        0.018454253673553467
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 45084,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 202152,
+      "componentType": 5126,
+      "count": 3598,
+      "max": [
+        24.40251350402832,
+        31.66452980041504,
+        24.40251350402832
+      ],
+      "min": [
+        -24.40251350402832,
+        0.0,
+        -24.40251350402832
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 245328,
+      "componentType": 5126,
+      "count": 3598,
+      "max": [
+        0.9999983906745911,
+        1.0,
+        0.9999983906745911
+      ],
+      "min": [
+        -0.9999983906745911,
+        -1.0,
+        -0.9999983906745911
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 134768,
+      "componentType": 5126,
+      "count": 3598,
+      "max": [
+        0.9999997019767761,
+        0.9999313950538635,
+        0.9999879002571106,
+        1.0
+      ],
+      "min": [
+        -0.9999971985816956,
+        -0.9997177720069885,
+        -0.9999852776527405,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 134768,
+      "componentType": 5126,
+      "count": 3598,
+      "max": [
+        0.7130106687545776,
+        0.9910789132118225
+      ],
+      "min": [
+        0.010503053665161133,
+        0.009493846446275711
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 180336,
+      "componentType": 5125,
+      "count": 16992,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Josh Smith (https://sketchfab.com/Yoshiboy721)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/monstera-deliciosa-385043a23ab84d83b85697c59ffef2b2",
+      "title": "Monstera Deliciosa"
+    },
+    "generator": "Sketchfab-16.3.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 248304,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 163552,
+      "byteOffset": 248304,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288504,
+      "byteOffset": 411856,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192336,
+      "byteOffset": 700360,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 892696,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/M_Monstera_baseColor.png"
+    },
+    {
+      "uri": "textures/M_Monstera_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/M_Monstera_normal.png"
+    },
+    {
+      "uri": "textures/M_Pot_baseColor.png"
+    },
+    {
+      "uri": "textures/M_Pot_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/M_Pot_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "M_Monstera",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "M_Pot",
+      "normalTexture": {
+        "index": 5
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Monstera_Plant_M_Monstera_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Pot_01_M_Pot_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9
+          },
+          "indices": 10,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "9e8052ad1a4b4c1ebec30961f1a86d60.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "MonsteraDeliciosa_01"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "Monstera_Plant"
+    },
+    {
+      "mesh": 0,
+      "name": "Monstera_Plant_M_Monstera_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "name": "Pot_01"
+    },
+    {
+      "mesh": 1,
+      "name": "Pot_01_M_Pot_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}
