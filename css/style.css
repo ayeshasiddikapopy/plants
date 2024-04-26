@@ -21,6 +21,13 @@ img{
     max-width: 90rem;
     margin: 0 auto;
 }
+.subHeader {
+    color: var(--green);
+    font-size: var(--subheadingFont);
+    font-weight: var(--medium);
+    font-family: var(--primaryFamily);
+    text-transform: capitalize;
+}
 :root{
     --green: #88AB8E;
     --black: #222;
@@ -256,7 +263,7 @@ img{
 }
 .hero__mainImg model-viewer{
     width: 100%;
-    height: 500px;
+    height: 25rem;
 }
 @keyframes hero_AnimImg{
     from {
@@ -269,9 +276,90 @@ img{
 }
 
 /* --------------------hero ends------------------------- */
-/* --------------------hero_item starts------------------ */
-/* --------------------hero_item ends-------------------- */
+/* --------------------shop_Category starts-------------- */
+#shop_Category {
+    padding: 2rem 0.625rem;
+}
+.subHeader--align {
+    text-align: center;
+    padding: 3.125rem 0;
+}
+.shop_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.shop_item {
+    width: 30%;
+    position: relative;
+    cursor: pointer;
+}
+.shop_item--spacing {
+    transform: translateY(20%);
+}
+.shop_img{
+    width: 100%;
+    height: 25rem;
+    transition: 1s;
+}
+.shop_img:hover{
+    animation: shop_imgAnim 1s ease-in-out  ;
+} 
+@keyframes shop_imgAnim {
+        16.65% {
+            transform: translateX(8px);
+        }
+
+        33.3% {
+            transform: translateX(-6px);
+        }
+        49.95% {
+            transform: translateX(4px);
+        }
+        66.6% {
+            transform: translateX(-2px);
+        }
+        83.25% {
+            transform: translateX(1px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+}
+.shop_img img{ 
+    width: 100%;
+    height: 100%;
+}
+.shop_texts {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    bottom: 0;
+    padding: 20px;
+    position: absolute;
+}
+
+.shop_text_inner{
+    color: var(--black);
+    font-size: var(--subheadingFont);
+    font-weight: var(--normal);
+    font-family: var(--primaryFamily);
+}
+.shop_text_Icon {
+    font-size:3.125rem;
+    color: var(--green);
+    width: 6.25rem;
+    height: 6.25rem;
+    line-height: 6.25rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 0.5px solid var(--green);
+}
+/* --------------------shop_Category ends---------------- */
 /* --------------------delivery starts------------------- */
+#delivery {
+    padding: 6rem 0;
+}
 /* --------------------delivery ends--------------------- */
 /* --------------------rating starts--------------------- */
 /* --------------------rating ends----------------------- */
@@ -291,12 +379,12 @@ img{
 .top {
     position: fixed;
     border-radius: 50%;
-    bottom: 10%;
+    bottom: 0%;
     right: 2%;
     z-index: 9999;
     transition: 1s;
     animation: topto 2s ease-in-out infinite alternate-reverse both;
-    z-index: 999999999999999999999;
+    z-index: 999999999999999999999999999999999;
     background: var(--green);
     height: 40px;
     width: 40px;

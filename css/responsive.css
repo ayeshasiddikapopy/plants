@@ -1,3 +1,17 @@
+@media (min-width: 850px) and (max-width: 1020px){
+    #shop_Category {
+        padding: 2rem 0.625rem;
+    }
+    .shop_text_inner{
+        font-size: var(--paraheadingFont);
+    }
+    .shop_text_Icon {
+        font-size: 1.25rem;
+        width: 3.125rem;
+        height:  3.125rem;
+        line-height:  3.125rem;
+    }
+}
 @media only screen and (max-width: 850px) {
    #navigation ,#hero ,#hero_item,#delivery, #rating, #testimonial, #shop,
    #newsletter, #community, #support, footer{
@@ -69,6 +83,29 @@
     .hero_content {
         display: block;
     }
+    .shop_content  {
+        justify-content: center;
+        gap: 1rem;
+    }
+    /*------ shop----- */
+    #shop_Category {
+        padding: 2rem 0.625rem;
+    }
+    .shop_item {
+        width: 40%;
+    }
+    .shop_text_inner{
+        font-size: var(--paraheadingFont);
+    }
+    .shop_text_Icon {
+        font-size: 1.25rem;
+        width: 3.125rem;
+        height:  3.125rem;
+        line-height:  3.125rem;
+    }
+    .shop_item--spacing {
+        transform: translateY(30%);
+    }
 
 }
 
@@ -82,5 +119,27 @@
     .hero_content {
         display: block;
         padding: 0 10px;
+    }
+    /*------ shop----- */
+    #shop_Category {
+        padding: 2rem 0.625rem;
+    }
+    .shop_content  {
+        justify-content: center;
+    }
+    .shop_item {
+        width: 80%;
+    }
+    .shop_text_inner{
+        font-size: var(--paraheadingFont);
+    }
+    .shop_text_Icon {
+        font-size: 1.25rem;
+        width: 3.125rem;
+        height:  3.125rem;
+        line-height:  3.125rem;
+    }
+    .shop_item--spacing {
+        transform: translateY(0);
     }
 } 
