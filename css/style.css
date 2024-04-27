@@ -357,11 +357,54 @@ img{
     border: 0.5px solid var(--green);
 }
 /* --------------------shop_Category ends---------------- */
-/* --------------------delivery starts------------------- */
-#delivery {
-    padding: 6rem 0;
+/* --------------------shop_collection starts------------ */
+#shop_collection {
+    padding: 2rem 0;
+    margin-top: 6rem ;
+    background: var(--green);
 }
-/* --------------------delivery ends--------------------- */
+.shop_collection_contents {
+    display: flex; 
+}
+.shop_collection_img{
+    width: 50%;
+    height: 100%;
+}
+.shop_collection_Items{
+    width: 50%;
+}
+.shop_collection_img img{
+    width: 100%;
+    height: 100%;
+}
+.shop_collection_Items {
+    align-self: center;
+    text-align: center;
+    padding: 0 4rem;
+}
+.shop_collection_subHeading {
+    color: var(--light);
+    font-size: var(--subheadingFont);
+    font-weight: var(--normal);
+    font-family: var(--primaryFamily);
+}
+.shop_collection_Text {
+    color: var(--light);
+    font-size: var(--lowerParagraphFont);
+    font-weight: var(--normal);
+    font-family: var(--primaryFamily);
+    padding: 2rem 0;
+}
+.shop_collection_inner {
+    color: var(--light);
+    font-size: var(--lowerParagraphFont);
+    font-weight: var(--normal);
+    font-family: var(--primaryFamily);
+    text-transform: capitalize;
+    border-bottom: 1px solid var(--light);
+    padding: 0 2rem 1rem;
+}
+/* --------------------shop_collection ends-------------- */
 /* --------------------rating starts--------------------- */
 /* --------------------rating ends----------------------- */
 /* --------------------testimonial starts---------------- */

@@ -67,9 +67,7 @@
 
   //shop categoty animation
   
-
-
-  var tl = gsap.timeline({
+  let tl = gsap.timeline({
     scrollTrigger:{
         trigger:'#shop_Category',
         start: '0% 50%',
@@ -77,6 +75,7 @@
         scrub:2,
         // markers:true,
         duration:2,
+        stagger:1
         
     }
 })
@@ -87,11 +86,11 @@ tl.from('.shop_content',{
 })
 tl.from('.shop_item-animation1',{
   y:250,
-  duration:0.5
+  duration:1
 })
 tl.from('.shop_item-animation3',{
   y:100,
-  duration:0.4
+  duration:1
 })
 tl.from('.shop_item-animation2',{
   y:200,
@@ -106,3 +105,39 @@ if (window.innerWidth <= 200 ){
   })
 
 }
+
+//------ shop_colection--------
+
+var t2 = gsap.timeline({
+  scrollTrigger:{
+      trigger:'#shop_collection',
+      start: '0% 50%',
+      end: '50% 70%',
+      scrub:2,
+      // markers:true,
+      duration:2,
+      stagger:1
+      
+  }
+})
+
+t2.from('.shop_collection_img',{
+  x:-400,
+  duration:2
+})
+t2.from('.shop_collection_Items',{
+  y:200,
+  duration:1
+})
+t2.from('.shop_collection_subHeading',{
+  y:110,
+  duration:1
+})
+t2.from('.shop_collection_Text',{
+  y:120,
+  duration:1
+})
+t2.from('.shop_collection_inner',{
+  y:100,
+  duration:1
+})
