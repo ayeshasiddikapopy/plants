@@ -362,6 +362,7 @@ img{
     padding: 2rem 0;
     margin-top: 6rem ;
     background: var(--green);
+    overflow-x: hidden !important;
 }
 .shop_collection_contents {
     display: flex; 
@@ -394,6 +395,7 @@ img{
     font-weight: var(--normal);
     font-family: var(--primaryFamily);
     padding: 2rem 0;
+    transition: 0.4s;
 }
 .shop_collection_inner {
     color: var(--light);
@@ -403,10 +405,191 @@ img{
     text-transform: capitalize;
     border-bottom: 1px solid var(--light);
     padding: 0 2rem 1rem;
+    transition: 0.4s;
 }
+.shop_collection_inner:hover,.shop_collection_Text:hover,.shop_collection_subHeading:hover{
+    color: #3a523e;
+}
+.shop_collection_inner:hover{
+    border-bottom: 0.5px solid #3a523e;
+    padding: 0 1rem 1rem;
+}
+
 /* --------------------shop_collection ends-------------- */
-/* --------------------rating starts--------------------- */
-/* --------------------rating ends----------------------- */
+/* --------------------selling starts-------------------- */
+#selling{
+    padding: 4rem 0;
+    width: 100%;
+}
+.selling_contents{
+    display: flex;
+
+}
+.selling_Items{
+    margin: 0 0 0 auto;
+    padding: 0 3rem;
+    align-self: center;
+    width: 30%;
+    text-align: right;
+}
+.selling_innerItems {
+    width: 70%;
+    display: flex;
+    /* overflow-x: scroll; */
+    
+}
+.selling_item_subheading {
+    color:  #3a523e;
+    font-size: var(--subheadingFont);
+    font-weight: var(--medium);
+    font-family: var(--primaryFamily);
+}
+.selling_Item_text{
+    color:  #3a523e;
+    font-size: var(--lowerParagraphFont);
+    font-weight: var(--normal);
+    font-family: var(--primaryFamily);
+    padding: 1rem 0;
+}
+.selling_Item_shop{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+    padding: 2rem 0 0 2rem   ;
+    position: relative;
+}
+.selling_Item_inner{
+    color:  #3a523e;
+    font-size: var(--lowerParagraphFont);
+    font-weight: var(--normal);
+    font-family: var(--primaryFamily);
+    background: #fff;
+    padding: 10px;
+}
+.selling_Item_inner::after{
+    position: absolute;
+    content: '';
+    width: 6.25rem;
+    height: 6.25rem;
+    line-height: 6.25rem;
+    border: 1px solid #3a523e;
+    border-radius: 50%;
+    top: 8%;
+    right: 20%;
+    z-index: -1;
+}
+@keyframes selling {
+    16.65% {
+        transform: translateX(8px);
+    }
+
+    33.3% {
+        transform: translateX(-6px);
+    }
+    49.95% {
+        transform: translateX(4px);
+    }
+    66.6% {
+        transform: translateX(-2px);
+    }
+    83.25% {
+        transform: translateX(1px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.selling_Item_shop:hover{
+    animation: selling 1s ease-in-out ;
+}
+.selling_inner_contents{
+    /* width: 30%; */
+    width: inherit;
+    transition: 1s;
+    padding: 10px;
+    cursor: pointer;
+}
+.selling_inner_contents:hover .selling_inner_img img{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.selling_inner_img{
+    width: 100%;
+    height: 25rem;
+    overflow: hidden;
+    position: relative;
+}
+.selling_inner_img img{
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+}
+.selling_inner_Icon {
+    position: absolute;
+    content: '';
+    bottom:0 ;
+    left: 50%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, 50%) rotate(-139deg);
+    transition: 1s;
+    opacity: 0;
+}
+.selling_inner_contents:hover .selling_inner_Icon{
+    transform: translate(-50%, 50%) rotate(45deg);
+    opacity: 1;
+}
+.selling_inner_IconItem{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: var(--green);
+    border-radius: 50%;
+    position: absolute;
+    top: 61%;
+    left: -3%;
+    transform: rotate(-44deg);
+    color: var(--light);
+    transition: 1s ;
+    cursor: pointer;
+}
+
+.selling_inner_IconItem:nth-child(1){
+    top: 6%;
+    left: 4%;
+    transition: 1.5s;
+
+}
+.selling_inner_IconItem:nth-child(2){
+    left: 61%;
+    top: -2%;
+    transition: 2s;
+
+}
+.selling_inner_IconItem:hover{
+    background: #3a523e;
+}
+.selling_inner_contents_item{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    
+}
+.selling_inner_contents_priceItem, .selling_inner_contents_priceDollar, .selling_inner_contents_Buy{
+    color: var(--green);
+    font-size: var(--lowerParagraphFont);
+    font-weight: var(--medium);
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.selling_inner_contents_priceDollar {
+    padding-top: 0.5rem;
+}
+
+/* --------------------selling ends---------------------- */
 /* --------------------testimonial starts---------------- */
 /* --------------------testimonial ends------------------ */
 /* --------------------shop starts----------------------- */

@@ -112,7 +112,7 @@ var t2 = gsap.timeline({
   scrollTrigger:{
       trigger:'#shop_collection',
       start: '0% 50%',
-      end: '50% 70%',
+      end: '0% 70%',
       scrub:2,
       // markers:true,
       duration:2,
@@ -126,18 +126,19 @@ t2.from('.shop_collection_img',{
   duration:2
 })
 t2.from('.shop_collection_Items',{
-  y:200,
+  x:400,
   duration:1
 })
 t2.from('.shop_collection_subHeading',{
-  y:110,
+  y:10,
   duration:1
 })
 t2.from('.shop_collection_Text',{
-  y:120,
-  duration:1
+  y:3,
+  duration:0.5
 })
 t2.from('.shop_collection_inner',{
-  y:100,
+  y:10,
   duration:1
 })
+

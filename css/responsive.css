@@ -1,4 +1,31 @@
+@media (min-width: 1020px) and (max-width: 2000px){
+       /* --------nav------- */
+       .nav_Item {
+        width: 75%;
+    }
+    .nav_icons {
+        width: 25%;
+    }
+    .shop_text_Icon {
+        font-size:1rem;
+        width: 2rem;
+        height: 2rem;
+        line-height: 2rem;
+        text-align: center;
+        border-radius: 50%;
+        border: 0.5px solid var(--green);
+    }
+}
+
 @media (min-width: 850px) and (max-width: 1020px){
+    /* --------nav------- */
+    .nav_Item {
+        width: 75%;
+    }
+    .nav_icons {
+        width: 25%;
+    }
+    /* ----------shop category------- */
     #shop_Category {
         padding: 2rem 0.625rem;
     }
@@ -30,6 +57,33 @@
     .shop_collection_Items{
         width: 80%;
         padding-top: 2rem;
+    }
+     /* --------selling------- */
+     .selling_innerItems {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .selling_inner_contents{
+        width: 50%;
+    }
+    .selling_contents{
+        flex-wrap: wrap;
+    }
+    .selling_Items{
+        width: 100%;
+        text-align: center;
+    }
+    .selling_Item_shop{
+        justify-content: center;
+        padding: 1rem 0 0 1rem   ;
+    }
+    .selling_Item_inner::after{
+        width: 3rem;
+        height: 3rem;
+        line-height: 3rem;
+        top: 14%;
+        left: 39%;
     }
 }
 @media only screen and (max-width: 850px) {
@@ -147,6 +201,33 @@
         width: 80%;
         padding-top: 2rem;
     }
+    /* --------selling------- */
+    .selling_innerItems {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .selling_inner_contents{
+        width: 50%;
+    }
+    .selling_contents{
+        flex-wrap: wrap;
+    }
+    .selling_Items{
+        width: 100%;
+        text-align: center;
+    }
+    .selling_Item_shop{
+        justify-content: center;
+        padding: 1rem 0 0 1rem   ;
+    }
+    .selling_Item_inner::after{
+        width: 3rem;
+        height: 3rem;
+        line-height: 3rem;
+        top: 14%;
+        left: 39%;
+    }
 }
 
 @media (min-width: 200px) and (max-width: 600px){
@@ -199,5 +280,35 @@
     }
     .shop_collection_Items{
         width: 100%;
+    }
+    /* ----selling------ */
+    .selling_innerItems {
+        width: 100%;
+        justify-content: center;
+        /* overflow-x: scroll; */
+        flex-wrap: wrap;
+        
+    }
+    .selling_inner_contents{
+        width: 80%;
+       
+    }
+    .selling_contents{
+        flex-wrap: wrap;
+    }
+    .selling_Items{
+        width: 100%;
+        text-align: center;
+    }
+    .selling_Item_shop{
+        justify-content: center;
+        padding: 1rem 0 0 1rem   ;
+    }
+    .selling_Item_inner::after{
+        width: 3rem;
+        height: 3rem;
+        line-height: 3rem;
+        top: 14%;
+        left: 33%;
     }
 } 
