@@ -359,7 +359,7 @@ img{
 /* --------------------shop_Category ends---------------- */
 /* --------------------shop_collection starts------------ */
 #shop_collection {
-    padding: 2rem 0;
+    padding: 2rem 1rem;
     margin-top: 6rem ;
     background: var(--green);
     overflow-x: hidden !important;
@@ -590,8 +590,83 @@ img{
 }
 
 /* --------------------selling ends---------------------- */
-/* --------------------testimonial starts---------------- */
-/* --------------------testimonial ends------------------ */
+/* --------------------community starts---------------- */
+#community {
+    padding: 3rem 1rem;
+}
+.community_contents{
+    display: flex;
+    height: 40rem;
+    padding: 1rem;
+    flex-wrap: wrap;   
+}
+.community_items_one{
+    width: 50%;
+    height: 100%;
+    padding: 0 1rem;
+}
+.community_items{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+.community_overlay {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000051;
+    opacity: 0;
+    transition: 1s;
+}
+.community_overlay i{
+    background: var(--light);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    transition: 0.2s;
+
+}
+.community_items:hover .community_overlay, .community_inner_img:hover .community_overlay{
+    opacity: 1;
+}
+.community_overlay i:hover{
+    background: var(--green);
+}
+.community_itemsTwo{
+    width: 50%;
+    height: 100%;
+    display: flex; 
+    flex-wrap: wrap;   
+}
+.community_inner_items{
+    width: 50%;
+    height: 100%;
+    padding: 0 1rem;
+}
+.community_inner_img{
+    width: 100%;
+    height: 48%;
+    position: relative;
+    
+}
+.community_inner_img:last-child{
+    margin-top: 1.5rem;
+}
+.community_inner_img img, .community_items img{
+    width: 100%;
+    height: 100%;
+    
+}
+/* --------------------community ends------------------ */
 /* --------------------shop starts----------------------- */
 /* --------------------shop ends------------------------- */
 /* --------------------newsletter starts----------------- */

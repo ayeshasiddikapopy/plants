@@ -142,3 +142,20 @@ t2.from('.shop_collection_inner',{
   duration:1
 })
 
+// ----community----
+var t3 = gsap.timeline({
+  scrollTrigger:{
+      trigger:'#community',
+      start: '-60% 50%',
+      end: '-60% 70%',
+      scrub:2,
+      // markers:true,
+      duration:2,
+      stagger:1
+      
+  }
+})
+t3.from('.community_contents',{
+  y:800,
+  duration:2
+})
