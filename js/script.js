@@ -156,6 +156,6 @@ var t3 = gsap.timeline({
   }
 })
 t3.from('.community_contents',{
-  y:800,
+  y:20,
   duration:2
 })

@@ -1,6 +1,6 @@
 @media (min-width: 1020px) and (max-width: 2000px){
        /* --------nav------- */
-       .nav_Item {
+    .nav_Item {
         width: 75%;
     }
     .nav_icons {
@@ -20,7 +20,7 @@
 @media (min-width: 850px) and (max-width: 1020px){
     /* --------nav------- */
     .nav_Item {
-        width: 75%;
+        width: 85%;
     }
     .nav_icons {
         width: 25%;
@@ -87,17 +87,16 @@
     }
      /* -----community----- */
      .community_items_one, .community_itemsTwo{
-        width: 100%;
-        height: 30rem;
+        height: 23rem;
     }
-    .community_itemsTwo{
-        margin-top: 1rem;
+    .community_contents {
+        height: 26rem;
     }
 }
 @media only screen and (max-width: 850px) {
-   #navigation ,#hero ,#hero_item,#delivery, #rating, #testimonial, #shop,
+   #navigation ,#hero,
    #newsletter, #community, #support, footer{
-    padding: 0 0.625rem;
+    
    }
     .nav_inner_item{
       display: none;
@@ -114,7 +113,6 @@
     .nav_logo img {
         padding: 0;
     }
-  
     .nav_inner_item-responsive{
         position: absolute;
         top: 50%;
@@ -123,6 +121,7 @@
         width: 50%;
         height: 90vh;
         background: var(--secondary);
+        z-index: 9999999999999999;
     }
     .nav_Item{
         margin: 0 auto;
@@ -148,7 +147,7 @@
     #hero {
         padding: 100px 10px;
          
-      }
+    }
     .hero_content{
         width: 100%;
         text-align: center;
@@ -238,12 +237,9 @@
     }
      /* -----community----- */
      .community_items_one, .community_itemsTwo{
-        width: 100%;
         height: 23rem;
     }
-    .community_itemsTwo{
-        margin-top: 1rem;
-    }
+    
 }
 
 @media (min-width: 200px) and (max-width: 600px){
@@ -251,6 +247,13 @@
     #navigation {
         overflow: hidden;
     }
+    .nav_responsive {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+   
     .hero_itemButtons_inner{
         width: 50%;
     }
@@ -328,6 +331,7 @@
         left: 33%;
     }
     /* -----community----- */
+  
     .community_items_one, .community_itemsTwo{
         width: 100%;
         height: 20rem;
