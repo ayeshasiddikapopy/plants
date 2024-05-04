@@ -159,3 +159,99 @@ t3.from('.community_contents',{
   y:20,
   duration:2
 })
+// ----testimonial----
+var t3 = gsap.timeline({
+  scrollTrigger:{
+      trigger:'#testimonial',
+      start: '-60% 50%',
+      end: '-60% 70%',
+      scrub:2,
+      // markers:true,
+      duration:2,
+      stagger:1
+      
+  }
+})
+t3.from('.testmonial_contents',{
+  y:40,
+  duration:2
+})
+// ----products----
+var t4 = gsap.timeline({
+  scrollTrigger:{
+      trigger:'#products',
+      start: '-10% 50%',
+      end: '-10% 70%',
+      scrub:2,
+      // markers:true,
+      duration:2,
+      stagger:1
+      
+  }
+})
+t4.from('.product_contents',{
+  y:100,
+  duration:2,
+  // delay:1
+})
+t4.from('.product_Heading',{
+  y:40,
+  duration:2,
+  delay:1
+
+})
+// ----newsletter----
+var t3 = gsap.timeline({
+  scrollTrigger:{
+      trigger:'#newsletter',
+      start: '-60% 50%',
+      end: '-60% 70%',
+      scrub:2,
+      // markers:true,
+      duration:2,
+      stagger:1
+      
+  }
+})
+t3.from('.news_content',{
+  y:20,
+  duration:2
+})
+t3.from('.news_content',{
+  y:20,
+  duration:2
+})
+// ----support----
+var t3 = gsap.timeline({
+  scrollTrigger:{
+      trigger:'#support',
+      start: '-60% 50%',
+      end: '-60% 70%',
+      scrub:2,
+      // markers:true,
+      duration:2,
+      stagger:true
+      
+  }
+})
+t3.from('.support_contents',{
+  y:20,
+  duration:2
+})
+// ----community----
+var t3 = gsap.timeline({
+  scrollTrigger:{
+      trigger:'#footer',
+      start: '-60% 50%',
+      end: '-60% 70%',
+      scrub:2,
+      // markers:true,
+      duration:2,
+      stagger:1
+      
+  }
+})
+t3.from('.footer_contents',{
+  y:20,
+  duration:2
+})
