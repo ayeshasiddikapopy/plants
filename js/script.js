@@ -255,3 +255,13 @@ t3.from('.footer_contents',{
   y:20,
   duration:2
 })
+
+
+// -----------hero start-------------- //
+let hero_btn = document.querySelector('.hero_btn')
+
+hero_btn.addEventListener('click',()=>{
+  window.location.href = 'product.html';
+})
+
+// -----------hero ends--------------- //
